@@ -36,16 +36,16 @@ import android.widget.EditText;
 import com.googlecode.tesseract.android.TessBaseAPI;
 
 public class MainActivity extends Activity {
-    public static final String PACKAGE_NAME = "com.datumdroid.android.ocr.simple";
+    public static final String PACKAGE_NAME = "com.example.abhi.booksnap";
     public static final String DATA_PATH = Environment
-            .getExternalStorageDirectory().toString() + "/SimpleAndroidOCR/";
+            .getExternalStorageDirectory().toString() + "/bookSnap/";
 
     // You should have the trained data file in assets folder
     // You can get them at:
     // http://code.google.com/p/tesseract-ocr/downloads/list
     public static final String lang = "eng";
 
-    private static final String TAG = "SimpleAndroidOCR.java";
+    private static final String TAG = "MainActivity.java";
 
     protected Button _button;
     // protected ImageView _image;
