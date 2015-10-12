@@ -38,7 +38,7 @@ import com.googlecode.tesseract.android.TessBaseAPI;
 public class MainActivity extends Activity {
     public static final String PACKAGE_NAME = "com.example.abhi.booksnap";
     public static final String DATA_PATH = Environment
-            .getExternalStorageDirectory().toString() + "/bookSnap/";
+            .getExternalStorageDirectory().toString() + "/MainActivity/";
 
     // You should have the trained data file in assets folder
     // You can get them at:
